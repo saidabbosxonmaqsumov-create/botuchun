@@ -41,7 +41,7 @@ async def start_handler(message: types.Message):
 @dp.message(Command("info"))
 async def info_handler(message: types.Message):
     info_text = (
-        "✨ <b>Ma'lumot</b> ✨\n\n"
+        "    <b>Ma'lumot</b>\n\n"
         "👤 <b>Maksumov</b>\n"
         "📅 <b>Yosh:</b> 20\n"
         "📍 <b>Shaxar:</b> Andijon\n"
@@ -111,3 +111,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
