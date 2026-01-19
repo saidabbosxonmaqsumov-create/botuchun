@@ -38,6 +38,24 @@ async def start_handler(message: types.Message):
     # Foydalanuvchiga salom
     await message.answer("👋 Salom! Bu bot orqali Maksumovga xabar yuborishingiz mumkin.")
 
+@dp.message(Command("info"))
+async def info_handler(message: types.Message):
+    info_text = (
+        "✨ <b>Ma'lumot</b> ✨\n\n"
+        "👤 <b>Maksumov</b>\n"
+        "📅 <b>Yosh:</b> 20\n"
+        "📍 <b>Shaxar:</b> Andijon\n"
+        "🎓 <b>O'qish/Ish:</b> ADU\n"
+        "🎯 <b>Qiziqishlar:</b> Dasturlash, IT loyihalar, Startaplar\n\n"
+        "━━━━━━━━━━━━━━━━━━\n"
+        "🌐 <b>Social:</b>\n\n"
+        "✈️ <b>Telegram:</b> @maaksumov\n"
+        "📸 <b>Instagram:</b> https://www.instagram.com/maksumov.s.k\n"
+        "📩 <i>Menga shu bot orqali ham yozishingiz mumkin!</i>"
+    )
+    
+    await message.answer(info_text)
+
 # Oddiy xabarlarni forward qilish
 @dp.message()
 async def forward_handler(message: types.Message):
