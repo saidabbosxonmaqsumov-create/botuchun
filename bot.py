@@ -44,13 +44,13 @@ async def info_handler(message: types.Message):
         "    <b>Ma'lumot</b>\n\n"
         "👤 <b>Maksumov</b>\n"
         "📅 <b>Yosh:</b> 20\n"
-        "📍 <b>Shaxar:</b> Andijon\n"
-        "🎓 <b>O'qish/Ish:</b> ADU\n"
+        "📍 <b>Viloyat / Shaxar:</b> Andijon v / Andijon sh. \n"
+        "🎓 <b>O'qish:</b> ADU\n"
         "🎯 <b>Qiziqishlar:</b> Dasturlash, IT loyihalar, Startaplar\n\n"
-        "━━━━━━━━━━━━━━━━━━\n"
+        "━━━━━━━━━━━━\n"
         "🌐 <b>Social:</b>\n\n"
         "✈️ <b>Telegram:</b> @maaksumov\n"
-        "📸 <b>Instagram:</b> https://www.instagram.com/maksumov.s.k\n"
+        "📸 <b>Instagram:</b> https://www.instagram.com/mcsumov\n"
         "📩 <i>Menga shu bot orqali ham yozishingiz mumkin!</i>"
     )
     
